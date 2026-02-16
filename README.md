@@ -130,9 +130,9 @@ aws logs tail /aws-glue/jobs/output \
 Run:
 
 ```
-aws s3 rm weather-streaming-glue-scripts-dev --recursive
-aws s3 rm weather-streaming-processed-dev --recursive
-aws s3 rm weather-streaming-raw-dev --recursive
+aws s3 rm s3://weather-streaming-glue-scripts-dev --recursive
+aws s3 rm s3://weather-streaming-processed-dev --recursive
+aws s3 rm s3://weather-streaming-raw-dev --recursive
 ```
 
 ```
