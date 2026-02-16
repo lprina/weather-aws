@@ -37,6 +37,7 @@ __pycache__/
 # Virtual environments
 venv/
 .venv/
+venv310/
 env/
 
 # =========================
@@ -45,6 +46,14 @@ env/
 *.zip
 dist/
 build/
+
+# =========================
+# Producer artifacts
+# =========================
+producer/package/
+*.json
+
+
 
 # =========================
 # IDE / OS junk
