@@ -28,6 +28,9 @@ AWS Glue (Spark) → Batch transformation.
 
 Amazon DynamoDB → Aggregated results.
 
+![Architecture Diagram](design.png)
+
+
 ## 3 - Instructions:
 
 **Prerequisites**
