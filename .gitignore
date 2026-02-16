@@ -1,0 +1,55 @@
+# =========================
+# Terraform
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Terraform plan files
+*.tfplan
+*.plan
+
+# =========================
+# Sensitive variable files
+# =========================
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.coverage
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# =========================
+# Lambda build artifacts
+# =========================
+*.zip
+dist/
+build/
+
+# =========================
+# IDE / OS junk
+# =========================
+.DS_Store
+.idea/
+.vscode/
+*.swp
