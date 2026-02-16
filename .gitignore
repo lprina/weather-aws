@@ -43,7 +43,7 @@ env/
 # =========================
 # Lambda build artifacts
 # =========================
-*.zip
+
 dist/
 build/
 
