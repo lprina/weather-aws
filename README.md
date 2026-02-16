@@ -127,7 +127,7 @@ Run:
 ```
 aws s3 rm weather-streaming-glue-scripts-dev --recursive
 aws s3 rm weather-streaming-processed-dev --recursive
-aws s3 rm weather-streaming-raw-dev
+aws s3 rm weather-streaming-raw-dev --recursive
 ```
 
 ```
