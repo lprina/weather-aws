@@ -28,7 +28,7 @@ AWS Glue (Spark) → Batch transformation.
 
 Amazon DynamoDB → Aggregated results.
 
-![Architecture Diagram](design.png)
+![](design.png)
 
 
 ## 3 - Instructions:
@@ -120,7 +120,9 @@ aws glue start-job-run \
 ***4.4 Check glue logs **
 
 ```
-aws logs tail /aws-glue/jobs/output --since 10m
+aws logs tail /aws-glue/jobs/output \
+  --since 30m \
+  --region eu-west-1git 
 ```
 
 ## Are you done testing?
