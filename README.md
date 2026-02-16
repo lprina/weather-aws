@@ -122,7 +122,7 @@ aws glue start-job-run \
 ```
 aws logs tail /aws-glue/jobs/output \
   --since 30m \
-  --region eu-west-1git 
+  --region eu-west-1
 ```
 
 ## Are you done testing?
