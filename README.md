@@ -1,6 +1,6 @@
 Weather Streaming Data Pipeline (AWS)
  
-**1-Overview:**
+## 1-Overview:
 
 This project implements a serverless AWS-based data pipeline that:
 
@@ -14,7 +14,7 @@ This project implements a serverless AWS-based data pipeline that:
 
 -The solution demonstrates cloud-native ingestion, batch processing, and analytics design.
 
-**2-Architecture:**
+## 2-Architecture:
 
 Components used:
 
@@ -28,16 +28,43 @@ AWS Glue (Spark) → Batch transformation.
 
 Amazon DynamoDB → Aggregated results.
 
+## 3 - Instructions:
+
+**Prerequisites**
+
+Before running this project, ensure you have:
+
+- AWS CLI installed
+- Terraform installed
+- An AWS account
+- Configured AWS credentials
 
 
+3.1 Run :
 
-
-
-```python
-print("Hello")
+```
+aws configure
 ```
 
+Provide:
 
-```python
-print("Hello")
+- AWS Access Key
+- AWS Secret Key
+- Default region (e.g. eu-west-1)
+- Output format (json)
+
+**Keys sent by email**
+
+Validation
+
 ```
+aws sts get-caller-identity
+```
+3.2 Terraform init
+
+Run the following from root folder:
+
+```
+terraform init
+```
+
